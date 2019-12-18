@@ -1,0 +1,26 @@
+.Menu {
+  padding: 8px;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.Menu img {
+  height: 100%;
+}
+
+.Active {
+  transform: rotate(-90deg);
+}
+
+.Inactive {
+  transform: rotate(0);
+}
+
+@media (min-width: 500px) {
+  .Menu {
+      display: none;
+  }
+}
